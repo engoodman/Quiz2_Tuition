@@ -2,7 +2,7 @@ import java.util.*;
 public class tuitionTotal {
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);//Use a scanner to ask for variables
 		System.out.println("Enter the tuition for the first year: ");
 		double initialTuition = input.nextDouble();
 		System.out.println("Enter the rate at which the tuition increases each year: ");
