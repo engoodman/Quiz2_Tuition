@@ -11,7 +11,7 @@ public class tuitionTotal {
 		for (int i = 0; i<4; i++){
 			double totalTuition = 0;
 			totalTuition = initialTuition*Math.pow((rate/100),4.0) + initialTuition;
-			System.out.printf("%2d years from now: $%2.5f\n", (i+1), totalTuition);	
+			System.out.printf("%2d years from now: $%2.5f\n", (i+1), totalTuition);	//Sum tuition for four years
 			initialTuition = initialTuition * (rate/100) + initialTuition;
 		}
 		
