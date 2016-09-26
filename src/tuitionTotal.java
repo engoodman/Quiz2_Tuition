@@ -8,7 +8,7 @@ public class tuitionTotal {
 		System.out.println("Enter the rate at which the tuition increases each year: ");
 		final double rate = input.nextDouble(); //Percentage increase each year
 		System.out.println("The total cost of tuition for four years:");
-		for (int i = 0; i<4; i++){
+		for (int i = 0; i<4; i++){ //Use a for loop
 			double totalTuition = 0;
 			totalTuition = initialTuition*Math.pow((rate/100),4.0) + initialTuition;
 			System.out.printf("%2d years from now: $%2.5f\n", (i+1), totalTuition);	//Sum tuition for four years
